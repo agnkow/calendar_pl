@@ -4,7 +4,7 @@
 from datetime import datetime, date, timedelta
 
 def calendar_pl(year_start, year_end=None, holidays=True, sundays=True): 
-    '''Holidays and Non Shopping Sunday in Poland'''
+    '''Holidays and Non Shopping Sundays in Poland'''
     dict1 = apply_multi(non_shopping_sunday, year_start, year_end) if sundays == True else {}  
     if holidays == True:
         dict2 = apply_multi(holiday_regular_dict, year_start, year_end)
