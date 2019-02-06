@@ -12,5 +12,5 @@ Funkcja **calendar_pl*** zwraca święta wraz z niedzielami wolnymi od handlu w 
 ```python
 calendar_pl(year_start, year_end=None, holidays=True, sundays=True)
 ```
-*Uwaga: Datę świąt Wielkanocnych wyznaczono zgodnie z algorytmem [Meeus/Jones/Butcher](https://en.wikipedia.org/wiki/Computus).
+*Uwaga: Datę Świąt Wielkanocnych wyznaczono zgodnie z algorytmem [Meeus/Jones/Butcher](https://en.wikipedia.org/wiki/Computus).
 
