@@ -7,7 +7,7 @@ Funkcja **time_change** zwraca zmiany czasu w Polsce (w postaci słownika z dat�
 time_change(year_start, year_end=None)
 ```
 
-Funkcja **calendar_pl*** zwraca święta wraz z niedzielami wolnymi od handlu w Polsce (w postaci słownika z datami wystąpięnia i nazwami świąt/niedziel).
+Funkcja **calendar_pl*** zwraca święta wraz z niedzielami wolnymi od handlu w Polsce (słownik z datami wystąpienia i nazwami świąt/niedziel).
 
 ```python
 calendar_pl(year_start, year_end=None, holidays=True, sundays=True)
